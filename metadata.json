@@ -1,0 +1,38 @@
+{
+  "name": "asos-hiera_keyvault",
+  "version": "0.0.1",
+  "author": "Marc Cluet",
+  "summary": "Hiera 5 backend to query data lookups from keyvault",
+  "license": "Apache 2.0",
+  "source": "https://github.com/ASOS/hiera-keyvault.git",
+  "project_page": "https://github.com/ASOS/hiera-keyvault",
+  "issues_url": "https://github.com/ASOS/hiera-keyvault/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04",
+        "16.04",
+        "18.04"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "dependencies": [
+  ]
+}
